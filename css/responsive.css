@@ -8,6 +8,7 @@
 
 @media (min-width:1200px) and (max-width:1401px) {
 
+
 }
 
 /* md */
@@ -15,7 +16,10 @@
 @media (min-width: 992px) and (max-width: 1199px) {
 
 	.container{ padding-left:50px}
-
+	.column-sol {
+		display: flex;
+		flex: 1 0 45%;
+	  }
 }
 
 /* sm */
@@ -24,8 +28,12 @@
 
 	.container{ padding-left:60px}
 
-	footer[role="footer"]{ position:absolute; bottom:0; width:100%; left:0; right:0}
-
+	footer[role="footer"]{ position:fixed; bottom:0; width:100%; left:0; right:0}
+	
+	.column-sol {
+		display: flex;
+		flex: 1 0 45%;
+	  }
 	
 }
 
@@ -49,6 +57,8 @@
 
 	article.home-content header[role="home-title"] h2{ font-size:30px; line-height:32px}
 
+	article.home-content h3 { font-size: 28px; line-height: 32px; text-align: center;}
+
 	article.home-content p br{ display:none}
 
 	#countdown{ padding-top:45px; text-align:center; display:block}
@@ -65,12 +75,15 @@
 
 	footer[role="footer"]{ position: fixed; bottom:0; width:100%; left:0; right:0}
 
-	footer[role="footer"] p{ text-align:center; line-height:35px; float:none}
+	footer[role="footer"] p{ text-align:center; width:100%; line-height:35px; float:none}
 
 	footer[role="footer"] p + p{ float:none; text-align:center}
 
 	
-	
+	.column-sol {
+		display: flex;
+		flex: 1 0 100%;
+	  }
 
 	
 
@@ -111,4 +124,6 @@
 	.news-img {
 		order: 2;
   }
+
+
 }
