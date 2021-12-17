@@ -442,11 +442,8 @@ letter-spacing: 0.5px;
 	background-color: #111111;
 	margin: 0;
 	padding: 0;
-}
-
-p.solutions {
-text-align: center;
-width: 100%;
+	text-align: center;
+	color:darkslategray;
 }
 
 .row-sol {
@@ -459,6 +456,7 @@ width: 100%;
   .column-sol{
 	flex: 1 0 21%;
 	margin: 5px;
+	margin-top: 15px;
 	height: 200px;
 	background-color: #111111;
 	text-align: center;
