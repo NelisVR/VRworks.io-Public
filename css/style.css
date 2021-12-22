@@ -284,7 +284,6 @@ article.home-content h3 {
 	color: #FFF;
 	padding: 0;
 	margin: 0;
-	width: 598px;
 	padding-bottom: 27px
 }
 .other-page article p.vrworks-mission {
@@ -549,6 +548,12 @@ p.construction {
 	border-top: 3px solid #ff4800;
 	margin-top: 5px;
 	padding-top: 6px
+}
+
+/*== WebVR ==*/
+
+p.webvr {
+	color: #FFF;
 }
 
 /*== Subscribe ==*/

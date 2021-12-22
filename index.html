@@ -42,9 +42,10 @@
   <nav>
     <ul class="nav nav-tabs">
       <li class="active"><a data-toggle="tab" href="#home" title="Home"><i class="fa fa-home" aria-hidden="true"></i></a></li>
-      <li><a data-toggle="tab" href="#menu1" title="About"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
-      <li><a data-toggle="tab" href="#menu2" title="Our Services & Solutions"><i class="fas fa-vr-cardboard" aria-hidden="true"></i></a></li>
-      <li><a data-toggle="tab" href="#menu3" title="Contact"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+      <li ><a data-toggle="tab" href="#menu1" title="About"><i class="fa fa-info-circle" aria-hidden="true"></i></a></li>
+      <li id="menu-item-3"><a data-toggle="tab" href="#menu2" title="WebVR Demo"><i class="fas fa-grip-horizontal" aria-hidden="true"></i></a></li>
+      <li><a data-toggle="tab" href="#menu3" title="Our Services & Solutions"><i class="fas fa-vr-cardboard" aria-hidden="true"></i></a></li>
+      <li><a data-toggle="tab" href="#menu4" title="Contact"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
     </ul>
   </nav>
 </aside>
@@ -125,11 +126,11 @@
             to explore, relax in- and take part of virtual destinations.</br> 
             We make this possible by making access as simple as possible.</br>
             Big tech companies forget about the ones who didn't grew up with new technologies.
-            We are here for the young, the elder - The new entrants and the advanced users.</br>
+            We are here for the young, the elder - the new entrants and the advanced users.</br>
             </br>
             Thanks to the <em>VRworks app</em>, our <em>Ready to use VR devices</em>, the <em>Expert advice</em> and <em>VRworks Cloud Solutions,</em> 
             VRworks is recognized for the best and most simple to use tools in its class.
-            Want to inplement Virtual Reality into your company? See our complete <a data-toggle="tab" href="#menu2" title="Our Services & Solutions">Services and Solutions.</a></br>
+            Want to inplement Virtual Reality into your company? See our complete <a data-toggle="tab" href="#menu2" onclick='$(".active").removeClass("active"); $("#menu-item-3").addClass("active");' title="Our Services & Solutions">Services and Solutions.</a></br>
               </p>
           </div>
         </div>
@@ -171,11 +172,19 @@
 
         <div class="row-news">
           <div class="column-news" style="background-color:#111111;">
-            <p class="vrworks-mission">
-              <span>STAY IN TOUCH</span></br>
-              Register today for the VRworks Software newsletter to receive all the latest information about our upcoming solutions and projects.
-            </p>
+            <div class="vrworks-mission">
+              <p>
+                <span>STAY IN TOUCH</span></br>
+                Register today for the VRworks Software newsletter to receive all the latest information about our upcoming solutions and projects.
+              </p>
+
+    
+            </div>
+           
+            
+         
           </div>
+
           <div class="column-news news-img" style="background-color:#111111;">
         
           </div>
@@ -254,9 +263,26 @@
       
       <!-- Solutions --> 
       
+      <!-- WebVR Demo -->
+
+      <section id="menu3" class="tab-pane fade other-page about-pan">
+        <header role="page-title">
+          <p>WebVR BY VRWORKS</p>
+          <h2>ENTER VIRTUAL REALITY</h2>
+          <p class="intro">See what WebVR is capable of with our WebVR Demo.</p>
+        </header>
+        <article>
+        <p class="webvr">
+          Currently unavailible - VR Works under construction!
+        </p>
+        </article>
+      </section>
+
+      <!-- WebVR Demo -->
+
       <!-- Contact -->
       
-      <section id="menu3" class="tab-pane fade other-page">
+      <section id="menu4" class="tab-pane fade other-page">
         <header role="page-title">
           <h2>Contact us</h2>
         </header>
